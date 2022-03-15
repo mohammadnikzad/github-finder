@@ -1,13 +1,13 @@
-import UserResults from "../components/users/UserResults"
-import UserSearch from "../components/users/UserSearch"
+import UserResults from '../components/users/UserResults'
+import UserSearch from '../components/users/UserSearch'
 
 function Home() {
-    return (
-        <>
-            <UserSearch />
-            <UserResults />
-        </>
-    )
+  return (
+    <>
+      <UserSearch />
+      <UserResults />
+    </>
+  )
 }
 
 export default Home
